@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
+import { Link } from "react-router-dom";
 import { Dock, DockIcon } from "../../components/ui/dock";
 
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
 export default function ItemsNav() {
-    const [darkMode, setDarkMode] = React.useState(false);
+    const [darkMode, setDarkMode] = useState(false);
 
     const toggleTheme = () => {
         setDarkMode((prevMode) => !prevMode);
@@ -16,23 +17,23 @@ export default function ItemsNav() {
             <Dock direction="middle">
                 {/* GitHub */}
                 <DockIcon>
-                    <Icons.gitHub className="size-6" />
+                    <Link to="https://github.com/NicolasHaubricht" target="_blank"> 
+                        <Icons.gitHub className="size-6" />
+                    </Link>
                 </DockIcon>
                 {/* Linkedin */}
                 <DockIcon>
-                    <Icons.linkedin className="size-6" />
+                    <Link to="https://www.linkedin.com/in/nicolas-haubricht" target="_blank"> 
+                        <Icons.linkedin className="size-6" />
+                    </Link>
                 </DockIcon>
                 {/* Email */}
                 <DockIcon>
                     <Icons.email className="size-6" />
                 </DockIcon>
                 {/* Darkmode */}
-                <DockIcon onClick={toggleTheme}>
-                    {darkMode ? (
-                        <Icons.darkmode className="size-6" />
-                    ) : (
-                        <Icons.darkmode className="size-6" />
-                    )}
+                <DockIcon>
+                    <button onClick={toggleTheme}><Icons.darkmode className="size-6" /></button>
                 </DockIcon>
             </Dock>
         </div>

@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 import AnimatedGridPattern from "../../components/ui/animated-grid-pattern";
 import Marquee from "../../components/ui/marquee";
 import TypingAnimation from "../../components/ui/typing-animation";
+import GradualSpacing from "../../components/ui/gradual-spacing";
 
 const Home = () => {
 
@@ -11,10 +12,15 @@ const Home = () => {
         <main className="flex flex-col gap-24">
             <section className="relative flex min-h-dvh w-full items-center justify-center overflow-hidden bg-background p-20">
                 <div className="flex flex-col gap-2">
-                    <TypingAnimation
-                        text="Nicolas Haubricht"
-                        className="text-6xl font-bold text-black dark:text-white"
-                    />
+                    <div className="flex flex-wrap w-svw justify-center items-center gap-5">
+                        {/* Nome */}
+                        <GradualSpacing
+                            className="font-display text-center text-5xl font-bold -tracking-widest  text-black dark:text-white md:text-7xl md:leading-[5rem]"
+                            text="Nicolas Haubricht Hainfellner"
+                        />
+                    </div>
+
+                    {/* Cargo */}
                     <TypingAnimation
                         className="text-4xl font-bold text-black dark:text-white"
                         text="Software Engineer"
