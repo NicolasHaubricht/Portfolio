@@ -1,16 +1,17 @@
 "use client";
 import { cn } from "@/lib/utils";
 import AnimatedGridPattern from "../../components/ui/animated-grid-pattern";
-import Marquee from "../../components/ui/marquee";
 import TypingAnimation from "../../components/ui/typing-animation";
 import GradualSpacing from "../../components/ui/gradual-spacing";
+import CardProjetos from "@/components/CardProjetos/CardProjetos";
+import Linguagens from "@/components/Linguagens/Linguagens";
 // import TextReveal from "../../components/ui/text-reveal";
 
 const Home = () => {
 
     return (
         // Home
-        <main className="flex flex-col gap-24">
+        <main className="flex flex-col gap-10">
             {/* Bem Vindo */}
             <section className="relative flex min-h-dvh w-full items-center justify-center overflow-hidden bg-background p-20">
                 <div className="flex flex-col gap-2">
@@ -43,13 +44,20 @@ const Home = () => {
             <section>
                 
             </section>
-
+                    
+            {/* Linguagens de Programação */}
+            <section className="w-full min-h-dvh flex items-center p-3">
+                <Linguagens/>
+            </section>
+            
+            {/* Projeto Desktop */}
             <section>
-                <MarqueeDemo />
+
             </section>
 
-            <section>
-
+            {/* Projetos Mobile */}
+            <section className="w-full my-14 flex justify-center sm:hidden">
+                <CardProjetos/>
             </section>
         </main>
     )
@@ -57,98 +65,3 @@ const Home = () => {
 
 export default Home
 
-const reviews = [
-    {
-        name: "Jack",
-        username: "@jack",
-        body: "I've never seen anything like this before. It's amazing. I love it.",
-        img: "https://avatar.vercel.sh/jack",
-    },
-    {
-        name: "Jill",
-        username: "@jill",
-        body: "I don't know what to say. I'm speechless. This is amazing.",
-        img: "https://avatar.vercel.sh/jill",
-    },
-    {
-        name: "John",
-        username: "@john",
-        body: "I'm at a loss for words. This is amazing. I love it.",
-        img: "https://avatar.vercel.sh/john",
-    },
-    {
-        name: "Jane",
-        username: "@jane",
-        body: "I'm at a loss for words. This is amazing. I love it.",
-        img: "https://avatar.vercel.sh/jane",
-    },
-    {
-        name: "Jenny",
-        username: "@jenny",
-        body: "I'm at a loss for words. This is amazing. I love it.",
-        img: "https://avatar.vercel.sh/jenny",
-    },
-    {
-        name: "James",
-        username: "@james",
-        body: "I'm at a loss for words. This is amazing. I love it.",
-        img: "https://avatar.vercel.sh/james",
-    },
-];
-
-const firstRow = reviews.slice(0, reviews.length / 2);
-const secondRow = reviews.slice(reviews.length / 2);
-
-const ReviewCard = ({
-    name,
-    username,
-    body,
-}: {
-    name: string;
-    username: string;
-    body: string;
-}) => {
-    return (
-        <figure
-            className={cn(
-                "relative w-64 cursor-pointer overflow-hidden rounded-xl border p-4",
-                "border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
-                "dark:border-gray-50/[.1] dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]"
-            )}
-        >
-            <div className="flex flex-row items-center gap-2">
-                <div
-                    className="h-8 w-8 rounded-full bg-gray-300 dark:bg-gray-600"
-                    aria-hidden="true"
-                ></div>
-                <div className="flex flex-col">
-                    <figcaption className="text-sm font-medium dark:text-white">
-                        {name}
-                    </figcaption>
-                    <p className="text-xs font-medium dark:text-white/40">{username}</p>
-                </div>
-            </div>
-            <blockquote className="mt-2 text-sm">{body}</blockquote>
-        </figure>
-    );
-};
-
-export function MarqueeDemo() {
-
-    return (
-        <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg bg-background">
-            <Marquee pauseOnHover className="[--duration:20s]">
-                {firstRow.map((review) => (
-                    <ReviewCard key={review.username} {...review} />
-                ))}
-            </Marquee>
-            <Marquee reverse pauseOnHover className="[--duration:20s]">
-                {secondRow.map((review) => (
-                    <ReviewCard key={review.username} {...review} />
-                ))}
-            </Marquee>
-            <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white dark:from-background"></div>
-            <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-white dark:from-background"></div>
-        </div>
-    );
-}
