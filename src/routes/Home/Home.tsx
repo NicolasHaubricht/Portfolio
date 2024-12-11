@@ -17,25 +17,25 @@ const Home = () => {
                 <div className="flex flex-col gap-2">
                     {/* Nome */}
                     <GradualSpacing
-                        className="font-display text-center text-5xl font-bold -tracking-widest  text-black dark:text-white md:text-7xl md:leading-[5rem]"
+                        className="font-display text-center text-5xl font-bold -tracking-widest z-10 text-black dark:text-white md:text-7xl md:leading-[5rem]"
                         text="Nicolas Haubricht Hainfellner"
                     />
 
                     {/* Cargo */}
                     <TypingAnimation
                         className="text-4xl font-bold text-black dark:text-white"
-                        text="Software Engineer"
+                        text="Engenheiro de Software"
                     />
                 </div>
                 {/* Background */}
                 <AnimatedGridPattern
-                    numSquares={30}
+                    numSquares={100}
                     maxOpacity={0.1}
-                    duration={3}
-                    repeatDelay={1}
+                    duration={1}
+                    repeatDelay={4}
                     className={cn(
-                        "[mask-image:radial-gradient(500px_circle_at_center,white,transparent)]",
-                        "inset-x-0 inset-y-[-30%] h-[200%] skew-y-12",
+                        "[mask-image:radial-gradient(450px_circle_at_center,white,transparent)]",
+                        "inset-x-0 inset-y-[-20%] h-[150%] skew-y-12",
                     )}
                 />
             </section>
