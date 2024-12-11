@@ -2,10 +2,8 @@ import ItemsNav from "../ItemsNav/ItemsNav"
 
 const Nav = () => {
     return (
-        <nav className="p-3 fixed w-full flex justify-center z-50">
-            <div>
+        <nav className="w-full fixed flex justify-center z-50">
                 <ItemsNav/>
-            </div>
         </nav>
     )
 }

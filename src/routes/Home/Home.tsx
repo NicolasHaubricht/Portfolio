@@ -1,5 +1,4 @@
 "use client";
-
 import { cn } from "@/lib/utils";
 import AnimatedGridPattern from "../../components/ui/animated-grid-pattern";
 import Marquee from "../../components/ui/marquee";
@@ -41,25 +40,16 @@ const Home = () => {
             </section>
 
             {/* Sobre Mim */}
-            <section className="min-h-dvh flex bg-white dark:bg-background mx-10">
-                <div className="w-1/2">
-                    
-                </div>
-                <aside className="w-1/2 flex flex-col justify-center gap-4">
-                    <h1 className="font-display text-4xl">Olá, me chamo <strong className="font-extralight font-mono">Nicolas!</strong></h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, cupiditate natus. Nesciunt cupiditate ullam accusantium quas itaque sunt aliquam cum, nostrum, soluta ipsum, incidunt eum in impedit quisquam. Veniam, sint.</p>
-                    <ul>
-                        <li>Lorem ipsum dlior sit amet, consectetur adipisicing elit. Eum, cupiditate natus.</li>
-                        <li>Lorem ipsum dlior sit amet, consectetur adipisicing elit. Eum, cupiditate natus.</li>
-                        <li>Lorem ipsum dlior sit amet, consectetur adipisicing elit. Eum, cupiditate natus.</li>
-                    </ul>
-                </aside>
+            <section>
+                
             </section>
 
             <section>
-                <div>
-                    <MarqueeDemo />
-                </div>
+                <MarqueeDemo />
+            </section>
+
+            <section>
+
             </section>
         </main>
     )
@@ -146,7 +136,7 @@ const ReviewCard = ({
 export function MarqueeDemo() {
 
     return (
-        <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg bg-background md:shadow-xl">
+        <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg bg-background">
             <Marquee pauseOnHover className="[--duration:20s]">
                 {firstRow.map((review) => (
                     <ReviewCard key={review.username} {...review} />
