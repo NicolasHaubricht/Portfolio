@@ -34,4 +34,16 @@ export const projects = [
             "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
         link: "https://meta.com",
     },
+    {
+        title: "Gerenciador de Jogos",
+        description:
+            "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
+        link: "https://meta.com",
+    },
+    {
+        title: "Web App Gestão Financeira",
+        description:
+            "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
+        link: "https://meta.com",
+    },
 ];
