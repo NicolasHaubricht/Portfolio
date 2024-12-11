@@ -1,31 +1,37 @@
+import { HoverEffect } from "../ui/card-hover-effect";
 
-import { Card, CardContent } from "../ui/card"
-import {
-    Carousel,
-    CarouselContent,
-    CarouselItem,
-    CarouselNext,
-    CarouselPrevious,
-} from "@/components/ui/carousel"
-
-export default function CardProjetos() {
+export default function Teste() {
     return (
-        <Carousel className="w-[180px] max-w-xs">
-            <CarouselContent>
-                {Array.from({ length: 6 }).map((_, index) => (
-                    <CarouselItem key={index}>
-                        <div className="p-1">
-                            <Card>
-                                <CardContent className="flex aspect-square items-center justify-center p-6">
-                                    <span className="text-4xl font-semibold">{index + 1}</span>
-                                </CardContent>
-                            </Card>
-                        </div>
-                    </CarouselItem>
-                ))}
-            </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
-        </Carousel>
-    )
+        <div className="max-w-5xl mx-auto px-8">
+            <h1 className="text-5xl ml-2 font-bold text-neutral-950 dark:text-white">Projetos</h1>
+            <p className="ml-2 mt-7 text-neutral-950 dark:text-white">Projetos pessoiais desenvolvidos e suas tecnologias</p>
+            <HoverEffect items={projects} />
+        </div>
+    );
 }
+export const projects = [
+    {
+        title: "EcoBreathe",
+        description:
+            "A technology company that builds economic infrastructure for the internet.",
+        link: "https://stripe.com",
+    },
+    {
+        title: "Organizador de Arquivos",
+        description:
+            "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+        link: "https://netflix.com",
+    },
+    {
+        title: "WeatherNow",
+        description:
+            "A multinational technology company that specializes in Internet-related services and products.",
+        link: "https://google.com",
+    },
+    {
+        title: "Web App Gestão Financeira",
+        description:
+            "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
+        link: "https://meta.com",
+    },
+];

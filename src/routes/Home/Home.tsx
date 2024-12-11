@@ -3,9 +3,8 @@ import { cn } from "@/lib/utils";
 import AnimatedGridPattern from "../../components/ui/animated-grid-pattern";
 import TypingAnimation from "../../components/ui/typing-animation";
 import GradualSpacing from "../../components/ui/gradual-spacing";
-import CardProjetos from "@/components/CardProjetos/CardProjetos";
 import Linguagens from "@/components/Linguagens/Linguagens";
-// import TextReveal from "../../components/ui/text-reveal";
+import CardProjetos from "../../components/CardProjetos/CardProjetos";
 
 const Home = () => {
 
@@ -46,17 +45,12 @@ const Home = () => {
             </section>
                     
             {/* Linguagens de Programação */}
-            <section className="w-full min-h-dvh flex items-center p-3">
+            <section className="w-full flex items-center p-3">
                 <Linguagens/>
             </section>
             
             {/* Projeto Desktop */}
             <section>
-
-            </section>
-
-            {/* Projetos Mobile */}
-            <section className="w-full my-14 flex justify-center sm:hidden">
                 <CardProjetos/>
             </section>
         </main>
