@@ -14,7 +14,7 @@ export const projects = [
         title: "EcoBreathe",
         description:
             "A technology company that builds economic infrastructure for the internet.",
-        link: "https://stripe.com",
+        link: "/projetos/ecobreathe",
     },
     {
         title: "Organizador de Arquivos",
@@ -41,9 +41,9 @@ export const projects = [
         link: "https://meta.com",
     },
     {
-        title: "Web App Gestão Financeira",
+        title: "Portfolio",
         description:
             "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-        link: "https://meta.com",
+        link: "/projetos/portfolio",
     },
 ];

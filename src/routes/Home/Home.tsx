@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 import AnimatedGridPattern from "../../components/ui/animated-grid-pattern";
 import TypingAnimation from "../../components/ui/typing-animation";
 import GradualSpacing from "../../components/ui/gradual-spacing";
-import Linguagens from "@/components/Linguagens/Linguagens";
+import Linguagens from "@/components/Tecnologias/Tecnologias";
 import CardProjetos from "../../components/CardProjetos/CardProjetos";
 
 const Home = () => {
