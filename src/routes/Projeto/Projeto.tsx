@@ -1,6 +1,5 @@
 import { useParams } from 'react-router-dom';
 
-
 const projetos = [
     {
         id: 'portfolio',
@@ -9,6 +8,14 @@ const projetos = [
         imagem: 'https://images.pexels.com/photos/38136/pexels-photo-38136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         deploy: 'https://meu-portfolio.com',
         repositorio: 'https://github.com/seuusuario/meu-portfolio',
+    },
+    {
+        id: 'organizador-de-arquivos',
+        titulo: 'Organizador de Arquivos',
+        descricao: 'Um organizador de arquivos criado com React, TypeScript e Tailwind CSS.',
+        imagem: 'https://images.pexels.com/photos/38136/pexels-photo-38136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        deploy: 'https://organizador-de-arquivos.com',
+        repositorio: 'https://github.com/seuusuario/organizador-de-arquivos',
     },
     {
         id: 'ecobreathe',
@@ -46,8 +53,15 @@ const Projeto = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent"></div>
             </div>
             <div className='p-4'>
-                <h2 className="text-2xl font-bold mb-2">{projeto.titulo}</h2>
-                <p className="text-black dark:text-white mb-4">{projeto.descricao}</p>
+                <h2 className="text-2xl mb-2 uppercase">{projeto.titulo}</h2>
+                <p className="text-black dark:text-white mb-4 font-thin text-justify">{projeto.descricao}</p>
+                <div>
+                    <h2>Imagens do projeto</h2>
+                    <div className="flex space-x-4">
+                        
+                    </div>
+                        
+                </div>
                 <div className="flex space-x-4">
                     <button>Deploy</button>
                     <button>Repositório</button>
