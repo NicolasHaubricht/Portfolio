@@ -1,3 +1,4 @@
+import Github from '@/components/Buttons/Github/Github';
 import { useParams } from 'react-router-dom';
 
 const projetos = [
@@ -43,7 +44,7 @@ const Projeto = () => {
     }
 
     return (
-        <section className=''>
+        <section className='flex flex-col items-center'>
             <div className="relative w-full h-[400px]">
                 <img
                     src={projeto.imagem}
@@ -52,19 +53,12 @@ const Projeto = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent"></div>
             </div>
-            <div className='p-4'>
+            <div className='p-4 w-full md:w-2/3 lg:w-1/2'>
                 <h2 className="text-2xl mb-2 uppercase">{projeto.titulo}</h2>
                 <p className="text-black dark:text-white mb-4 font-thin text-justify">{projeto.descricao}</p>
-                <div>
-                    <h2>Imagens do projeto</h2>
-                    <div className="flex space-x-4">
-                        
-                    </div>
-                        
-                </div>
-                <div className="flex space-x-4">
+                <div className="flex space-x-4 gap-3">
                     <button>Deploy</button>
-                    <button>Repositório</button>
+                    <Github text='Repositório'/>
                 </div>
             </div>
         </section>
