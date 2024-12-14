@@ -1,15 +1,15 @@
-import { HoverEffect } from "../ui/card-hover-effect";
+import { ComponentCard } from "../ui/card-hover-effect";
 
-export default function Teste() {
+export default function CardProjetos() {
     return (
         <div className="max-w-5xl mx-auto px-8">
             <h1 className="text-5xl ml-2 font-bold text-neutral-950 dark:text-white">Projetos</h1>
             <p className="ml-2 mt-7 text-neutral-950 dark:text-white">Projetos pessoiais desenvolvidos e suas tecnologias</p>
-            <HoverEffect items={projects} />
+            <ComponentCard items={projetos} />
         </div>
     );
 }
-export const projects = [
+export const projetos = [
     {
         title: "EcoBreathe",
         description: "O EcoBreathe é um projeto de monitoramento ambiental que coleta dados de temperatura, umidade e partículas PM10 e PM2.5 em tempo real.",

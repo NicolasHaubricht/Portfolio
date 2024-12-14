@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 
-export const HoverEffect = ({
+export const ComponentCard = ({
     items,
     className,
 }: {
