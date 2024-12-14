@@ -11,8 +11,8 @@ const projetos = [
         sub_titulo: 'Portfólio pessoal',
         descricao: 'Um portfólio pessoal criado com React, TypeScript e Tailwind CSS.',
         imagem: 'https://images.pexels.com/photos/247791/pexels-photo-247791.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        deploy: 'https://meu-portfolio.com',
-        repositorio: 'https://github.com/seuusuario/meu-portfolio',
+        deploy: '',
+        repositorio: 'https://github.com/NicolasHaubricht/Portfolio',
     },
     {
         id: 'organizador-de-arquivos',
@@ -20,7 +20,7 @@ const projetos = [
         descricao: 'Este projeto tem como objetivo organizar arquivos em um diretório, movendo-os para pastas específicas de acordo com suas extensões. Além disso, ele também pode mover arquivos de volta para o diretório raiz a partir de pastas organizadas.',
         imagem: 'https://images.pexels.com/photos/247791/pexels-photo-247791.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         deploy: 'https://organizador-de-arquivos.com',
-        repositorio: 'https://github.com/seuusuario/organizador-de-arquivos',
+        repositorio: 'https://github.com/NicolasHaubricht/Organizador-de-Arquivos',
     },
     {
         id: 'ecobreathe',
@@ -30,7 +30,33 @@ const projetos = [
         imagem: 'https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         deploy: 'https://eco-breathe-web-site.vercel.app/',
         repositorio: 'https://github.com/NicolasHaubricht/EcoBreathe-Web-Site',
-        color: 'text-green-500'
+    },
+    {
+        id: 'web-app-gestão-financeira',
+        titulo: 'Web App Gestão Financeira',
+        sub_titulo: 'Este projeto é sobre um Web App de gestão financeira feito em Python.',
+        descricao: 'Este projeto é sobre um Web App de gestão financeira feito em Python.',
+        imagem: 'https://images.pexels.com/photos/159888/pexels-photo-159888.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        deploy: '',
+        repositorio: 'https://github.com/NicolasHaubricht/Gestao-Financeira-Web-App',
+    },
+    {
+        id: 'gerenciador-de-jogos',
+        titulo: 'Gerenciador de Jogos',
+        sub_titulo: 'Este projeto tem como objetivo criar um gerenciador de jogos online, sendo possivel adicioanr, remover jogos.',
+        descricao: 'Este projeto tem como objetivo criar um gerenciador de jogos online, sendo possivel adicioanr, remover jogos. Alem disso cada usuário tem sua propria lista.',
+        imagem: 'https://images.pexels.com/photos/1346154/pexels-photo-1346154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        deploy: '',
+        repositorio: '',
+    },
+    {
+        id: 'weather-now',
+        titulo: 'WeatherNow',
+        sub_titulo: 'Esse projeto, WeatherNow, permite que o usuário pesquise as condições climáticas de qualquer cidade.',
+        descricao: 'Esse projeto, WeatherNow, permite que o usuário pesquise as condições climáticas de qualquer cidade e obtenha informações detalhadas de forma rápida e eficiente. Além de funcional, ele é totalmente responsivo, garantindo uma experiência agradável em qualquer dispositivo.',
+        imagem: 'https://images.pexels.com/photos/5366526/pexels-photo-5366526.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        deploy: 'https://weather-now-drab-eight.vercel.app/',
+        repositorio: 'https://github.com/NicolasHaubricht/WeatherNow',
     },
 ];
 
@@ -45,11 +71,11 @@ const Projeto = () => {
 
     return (
         <section className='flex flex-col items-center'>
-            <div className="relative w-full h-[200px]">
+            <div className="relative w-full h-[250px]">
                 <img
                     src={projeto.imagem}
                     alt={`Imagem do projeto ${projeto.titulo}`}
-                    className="w-full object-cover h-full absolute filter grayscale"
+                    className="w-full object-cover bg-no-repeat h-full filter grayscale"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent"></div>
             </div>

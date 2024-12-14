@@ -11,10 +11,23 @@ export default function CardProjetos() {
 }
 export const projetos = [
     {
+        title: "Portfolio",
+        description:
+            "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
+        link: "/projetos/portfolio",
+        tecnologias: ["React", "Tailwind", "TypeScript"],
+    },
+    {
         title: "EcoBreathe",
         description: "O EcoBreathe é um projeto de monitoramento ambiental que coleta dados de temperatura, umidade e partículas PM10 e PM2.5 em tempo real.",
         link: "/projetos/ecobreathe",
         tecnologias: ["React", "Tailwind", "C++", "Python", "AWS"],
+    },
+    {
+        title: "WeatherNow",
+        description:"Esse projeto, WeatherNow, permite que o usuário pesquise as condições climáticas de qualquer cidade e obtenha informações detalhadas de forma rápida e eficiente. Além de funcional, ele é totalmente responsivo, garantindo uma experiência agradável em qualquer dispositivo.",
+        link: "/projetos/weather-now",
+        tecnologias: ["HTML", "CSS", "JavaScript"],
     },
     {
         title: "Organizador de Arquivos",
@@ -23,31 +36,18 @@ export const projetos = [
         tecnologias: ["Python"],
     },
     {
-        title: "WeatherNow",
-        description:
-            "A multinational technology company that specializes in Internet-related services and products.",
-        link: "https://google.com",
-        tecnologias: ["HTML", "CSS", "JavaScript"],
-    },
-    {
         title: "Web App Gestão Financeira",
         description:
             "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-        link: "https://metaaaaaaaaaaa.com",
+        link: "/projetos/web-app-gestão-financeira",
         tecnologias: ["Python"],
     },
     {
         title: "Gerenciador de Jogos",
         description:
             "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-        link: "https://metaaa.com",
+        link: "/projetos/gerenciador-de-jogos",
         tecnologias: ["Python", "Flask", "SQL"],
     },
-    {
-        title: "Portfolio",
-        description:
-            "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-        link: "/projetos/portfolio",
-        tecnologias: ["React", "Tailwind", "TypeScript"],
-    },
+
 ];
