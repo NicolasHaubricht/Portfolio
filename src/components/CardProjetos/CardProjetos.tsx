@@ -12,43 +12,42 @@ export default function Teste() {
 export const projects = [
     {
         title: "EcoBreathe",
-        description: "Projeto de Monitoramento Ambiental",
+        description: "O EcoBreathe é um projeto de monitoramento ambiental que coleta dados de temperatura, umidade e partículas PM10 e PM2.5 em tempo real.",
         link: "/projetos/ecobreathe",
         tecnologias: ["React", "Tailwind", "C++", "Python", "AWS"],
     },
     {
         title: "Organizador de Arquivos",
-        description:
-            "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-        link: "https://netflix.com",
-        tecnologias: ["React", "Tailwind", "C++", "Python", "AWS"],
+        description:"A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+        link: "/projetos/organizador-de-arquivos",
+        tecnologias: ["Python"],
     },
     {
         title: "WeatherNow",
         description:
             "A multinational technology company that specializes in Internet-related services and products.",
         link: "https://google.com",
-        tecnologias: ["React", "Tailwind", "C++", "Python", "AWS"],
+        tecnologias: ["HTML", "CSS", "JavaScript"],
     },
     {
         title: "Web App Gestão Financeira",
         description:
             "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
         link: "https://metaaaaaaaaaaa.com",
-        tecnologias: ["React", "Tailwind", "C++", "Python", "AWS"],
+        tecnologias: ["Python"],
     },
     {
         title: "Gerenciador de Jogos",
         description:
             "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
         link: "https://metaaa.com",
-        tecnologias: ["React", "Tailwind", "C++", "Python", "AWS"],
+        tecnologias: ["Python", "Flask", "SQL"],
     },
     {
         title: "Portfolio",
         description:
             "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
         link: "/projetos/portfolio",
-        tecnologias: ["React", "Tailwind", "C++", "Python", "AWS"],
+        tecnologias: ["React", "Tailwind", "TypeScript"],
     },
 ];

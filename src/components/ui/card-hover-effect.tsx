@@ -112,8 +112,6 @@ export const CardDescription = ({
         </p>
     );
 };
-
-
 export const CardTecnologias = ({
     tecnologias,
     className,
@@ -126,7 +124,7 @@ export const CardTecnologias = ({
             {tecnologias.map((tecnologia, index) => (
                 <li
                     key={index}
-                    className="text-sm bg-gray-200 dark:bg-gray-800 rounded px-2 py-1"
+                    className="text-sm text-white bg-neutral-700 dark:bg-neutral-800 rounded px-2 py-1"
                 >
                     {tecnologia}
                 </li>
