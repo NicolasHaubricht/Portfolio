@@ -1,5 +1,5 @@
 interface GithubProps {
-    text: string; // Define uma propriedade `text` do tipo string
+    text: string;
 }
 
 const Github: React.FC<GithubProps> = ({ text }) => {
