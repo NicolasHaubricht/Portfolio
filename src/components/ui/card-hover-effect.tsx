@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
+
 export const HoverEffect = ({
     items,
     className,
@@ -11,6 +12,7 @@ export const HoverEffect = ({
         title: string;
         description: string;
         link: string;
+        tecnologias: string[];
     }[];
     className?: string;
 }) => {
@@ -19,7 +21,7 @@ export const HoverEffect = ({
     return (
         <div
             className={cn(
-                "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-10",
+                "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  py-10",
                 className
             )}
         >
@@ -51,6 +53,7 @@ export const HoverEffect = ({
                     <Card>
                         <CardTitle>{item.title}</CardTitle>
                         <CardDescription>{item.description}</CardDescription>
+                        <CardTecnologias tecnologias={item.tecnologias}/>
                     </Card>
                 </Link>
             ))}
@@ -109,3 +112,27 @@ export const CardDescription = ({
         </p>
     );
 };
+
+
+export const CardTecnologias = ({
+    tecnologias,
+    className,
+}: {
+    tecnologias: string[];
+    className?: string;
+}) => {
+    return (
+        <ul className={cn("mt-2 flex flex-wrap gap-2", className)}>
+            {tecnologias.map((tecnologia, index) => (
+                <li
+                    key={index}
+                    className="text-sm bg-gray-200 dark:bg-gray-800 rounded px-2 py-1"
+                >
+                    {tecnologia}
+                </li>
+            ))}
+        </ul>
+    );
+};
+
+

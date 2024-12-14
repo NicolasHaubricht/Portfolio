@@ -1,7 +1,6 @@
 "use client";
-import { Link } from "react-router-dom";
-import ShimmerButton from "@/components/ui/shimmer-button";
 import { SparklesCore } from "../../components/ui/sparkles";
+import ButtonType from "@/components/Buttons/ButtonType/ButtonType";
 
 const Error = () => {
     return (
@@ -21,15 +20,7 @@ const Error = () => {
                         className="w-full h-full"
                         particleColor="#FFFFFF"
                     />
-                    <Link to='/'>
-                        <div className="z-10 flex min-h-64 items-center justify-center">
-                            <ShimmerButton className="shadow-2xl">
-                                <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
-                                    Home
-                                </span>
-                            </ShimmerButton>
-                        </div>
-                    </Link>
+                    <ButtonType text="Voltar para a página inicial" />
                     <div className="absolute inset-0 w-full h-full bg-background [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
                 </div>
             </div>
