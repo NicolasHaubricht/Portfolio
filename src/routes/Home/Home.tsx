@@ -3,9 +3,10 @@ import { cn } from "@/lib/utils";
 import AnimatedGridPattern from "../../components/ui/animated-grid-pattern";
 import TypingAnimation from "../../components/ui/typing-animation";
 import GradualSpacing from "../../components/ui/gradual-spacing";
+
+import SobreMim from "@/components/SobreMim/SobreMim";
 import Linguagens from "@/components/Tecnologias/Tecnologias";
 import CardProjetos from "../../components/CardProjetos/CardProjetos";
-
 const Home = () => {
 
     return (
@@ -41,7 +42,7 @@ const Home = () => {
 
             {/* Sobre Mim */}
             <section>
-                
+                <SobreMim />
             </section>
                     
             {/* Linguagens de Programação */}
