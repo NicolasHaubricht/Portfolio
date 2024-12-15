@@ -33,22 +33,24 @@ const ImageCard = ({ src }: { src: string }) => {
     );
 };
 
-export default function Linguagens() {
+export default function Tecnologias() {
     return (
-        <div className="relative flex h-auto w-full flex-col items-center justify-center overflow-hidden rounded-lg bg-white dark:bg-background">
-            <Marquee pauseOnHover className="[--duration:20s]">
-                {firstRow.map((src, index) => (
-                    <ImageCard key={index} src={src} />
-                ))} 
-                {/* hover:opacity-50 */}
-            </Marquee>
-            <Marquee reverse pauseOnHover className="[--duration:25s]">
-                {secondRow.map((src, index) => (
-                    <ImageCard key={index} src={src} />
-                ))}
-            </Marquee>
-            <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white dark:from-background"></div>
-            <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-white dark:from-background"></div>
-        </div>
+        <section className="w-full flex items-center p-3">
+            <div className="relative flex h-auto w-full flex-col items-center justify-center overflow-hidden rounded-lg bg-white dark:bg-background">
+                <Marquee pauseOnHover className="[--duration:20s]">
+                    {firstRow.map((src, index) => (
+                        <ImageCard key={index} src={src} />
+                    ))}
+                    {/* hover:opacity-50 */}
+                </Marquee>
+                <Marquee reverse pauseOnHover className="[--duration:25s]">
+                    {secondRow.map((src, index) => (
+                        <ImageCard key={index} src={src} />
+                    ))}
+                </Marquee>
+                <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white dark:from-background"></div>
+                <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-white dark:from-background"></div>
+            </div>
+        </section>
     );
 }

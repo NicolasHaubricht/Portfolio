@@ -88,7 +88,7 @@ const Projeto = () => {
                 </div>
                 <h2 className="text-xl mb-2 font-normal uppercase mt-5 text-center">{projeto.sub_titulo}</h2>
                 <p className="text-black dark:text-white mb-4 font-thin text-justify">{projeto.descricao}</p>
-                <div className="flex gap-3 justify-center flex-wrap">
+                <div className="flex gap-3 mt-8 justify-center flex-wrap">
                     <Link to={projeto.deploy} target='_blank'>
                         <Deploy text='Deploy' />
                     </Link>

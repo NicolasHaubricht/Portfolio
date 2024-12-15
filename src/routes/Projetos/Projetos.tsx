@@ -5,9 +5,7 @@ const Projetos = () => {
         <>
             <section>
                 <Outlet />
-                <div className="w-full">
-                    <ButtonType text="Voltar para a página inicial"/>
-                </div>
+                <ButtonType text="Voltar para a página inicial"/>
             </section>
         </>
     )

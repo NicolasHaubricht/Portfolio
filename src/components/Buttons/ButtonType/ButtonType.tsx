@@ -7,7 +7,7 @@ interface ButtonTypeProps {
 
 const ButtonType: React.FC<ButtonTypeProps> = ({ text }) => {
         return (
-            <div>
+            <div className="w-full">
                 <Link to='/'>
                     <div className="z-10 flex min-h-[100px] items-center justify-center">
                         <ShimmerButton className="shadow-2xl">
