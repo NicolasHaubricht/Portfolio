@@ -18,8 +18,7 @@ const SobreMim = () => {
                         <AccordionItem value="item-2">
                             <AccordionTrigger>Minha trajetória:</AccordionTrigger>
                             <AccordionContent>
-                                Yes. It comes with default styles that matches the other
-                                components&apos; aesthetic.
+                                Prazer, sou Nicolas! Atualmente, curso Engenharia de Software na FIAP, onde estou no terceiro semestre. Minha paixão por tecnologia começou em 2016, quando iniciei meus estudos individuais por Design Gráfico. Em 2024, decidi ampliar meu conhecimento e comecei minha graduação em Engenharia de Software, com o objetivo de me aprofundar em áreas mais técnicas e complexas do desenvolvimento de software. Estou sempre em busca de oportunidades que me desafiem e me permitam crescer tanto pessoal quanto profissionalmente.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-3">
@@ -30,8 +29,6 @@ const SobreMim = () => {
                                     <ul>CSS</ul>
                                     <ul>JavaScript</ul>
                                     <ul>React Vite</ul>
-                                    <ul>Styled Components</ul>
-                                    <ul>Tailwind</ul>
                                 </div>
                                 <div>
                                     <ul>Git</ul>
@@ -43,13 +40,17 @@ const SobreMim = () => {
                         </AccordionItem>
                         <AccordionItem value="item-4">
                             <AccordionTrigger>Tecnologias que estou estudando:</AccordionTrigger>
-                            <AccordionContent>
-                                <ul>Next</ul>
-                                <ul>Flask</ul>
-                                <ul>Node</ul>
-                                <ul>SQL</ul>
-                                <ul>TypeScript</ul>
-                                <ul>AWS</ul>
+                            <AccordionContent className="flex gap-10">
+                                <div>
+                                    <ul>Next</ul>
+                                    <ul>Flask</ul>
+                                    <ul>Node</ul>
+                                </div>
+                                <div>
+                                    <ul>SQL</ul>
+                                    <ul>TypeScript</ul>
+                                    <ul>AWS</ul>
+                                </div>
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>

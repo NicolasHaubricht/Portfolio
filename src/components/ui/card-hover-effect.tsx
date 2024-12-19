@@ -36,7 +36,7 @@ export const ComponentCard = ({
                     <AnimatePresence>
                         {hoveredIndex === idx && (
                             <motion.span
-                                className="absolute inset-0 h-full w-full bg-neutral-950 dark:bg-neutral-50 block rounded-3xl"
+                                className="absolute inset-0 h-full w-full bg-neutral-700 dark:bg-neutral-50 block rounded-3xl"
                                 layoutId="hoverBackground"
                                 initial={{ opacity: 0 }}
                                 animate={{
@@ -71,7 +71,7 @@ export const Card = ({
     return (
         <div
             className={cn(
-                "rounded-2xl h-full w-full p-4 overflow-hidden bg-neutral-900 border border-black dark:border-white/[0.2] group-hover:border-slate-100/[0.6] relative z-20 transition-all duration-300 ease-in-out",
+                "rounded-2xl h-full w-full p-4 overflow-hidden bg-neutral-200 dark:bg-neutral-900 border border-black dark:border-white/[0.2] group-hover:border-slate-100/[0.6] relative z-20 transition-all duration-300 ease-in-out",
                 className
             )}
         >
@@ -89,7 +89,7 @@ export const CardTitle = ({
     children: React.ReactNode;
 }) => {
     return (
-        <h4 className={cn("text-white font-bold tracking-wide mt-4", className)}>
+        <h4 className={cn("text-black dark:text-white font-bold tracking-wide mt-4", className)}>
             {children}
         </h4>
     );
@@ -104,7 +104,7 @@ export const CardDescription = ({
     return (
         <p
             className={cn(
-                "mt-8 text-zinc-400 tracking-wide leading-relaxed text-sm",
+                "mt-8 text-zinc-700 dark:text-zinc-400 tracking-wide leading-relaxed text-sm",
                 className
             )}
         >
@@ -124,7 +124,7 @@ export const CardTecnologias = ({
             {tecnologias.map((tecnologia, index) => (
                 <li
                     key={index}
-                    className="text-sm text-white bg-neutral-700 dark:bg-neutral-800 rounded px-2 py-1"
+                    className="text-sm text-white dark:text-white bg-neutral-400 dark:bg-neutral-800 rounded px-2 py-1"
                 >
                     {tecnologia}
                 </li>
