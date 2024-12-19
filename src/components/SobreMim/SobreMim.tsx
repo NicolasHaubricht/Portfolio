@@ -22,7 +22,7 @@ const SobreMim = () => {
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-3">
-                            <AccordionTrigger>Conhecimento nas Tecnlogias:</AccordionTrigger>
+                            <AccordionTrigger>Conhecimento nas Tecnologias:</AccordionTrigger>
                             <AccordionContent className="flex gap-10">
                                 <div>
                                     <ul>HTML</ul>
