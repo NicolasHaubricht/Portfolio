@@ -20,7 +20,7 @@ const projetos = [
         titulo: 'Organização Pessoal',
         descricao: 'Este projeto permite a organização de arquivos em um diretório, movendo-os para pastas específicas de acordo com suas extensões. Além disso, ele também pode mover arquivos de volta para o diretório raiz a partir de pastas organizadas.',
         imagem: 'https://images.pexels.com/photos/247791/pexels-photo-247791.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        deploy: 'https://organizador-de-arquivos.com',
+        deploy: '',
         repositorio: 'https://github.com/NicolasHaubricht/Organizador-de-Arquivos',
     },
     {
@@ -53,6 +53,10 @@ const Projeto = () => {
         return (<Error />)
     }
 
+    if (!projeto?.repositorio && !projeto?.deploy?.trim()) {
+        return <Error />;
+    }
+
     const animationVariants = {
         hidden: { opacity: 0, y: 50 },
         visible: { opacity: 1, y: 0, transition: { duration: 1 } },
@@ -79,16 +83,16 @@ const Projeto = () => {
                         <p className="text-black dark:text-white mb-4 font-normal text-justify">{projeto.descricao}</p>
                     </div>
                     <div className="flex gap-3 mt-8 justify-center flex-wrap">
-                        <div>
-                            <Link to={projeto.deploy} target='_blank'>
-                                <Deploy text='Deploy' />
-                            </Link>
-                        </div>
-                        <div>
-                            <Link to={projeto.repositorio} target='_blank'>
-                                <Github text='Repositório' />
-                            </Link>
-                        </div>
+                            {projeto.deploy?.trim() && (
+                                <Link to={projeto.deploy} target="_blank">
+                                    <Deploy text="Deploy" />
+                                </Link>
+                            )}
+                            {projeto.repositorio?.trim() && (
+                                <Link to={projeto.repositorio} target="_blank">
+                                    <Github text="Repositório" />
+                                </Link>
+                            )}
                     </div>
                     <div>
                         <ButtonType text="Voltar para a página inicial" />
