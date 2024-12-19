@@ -9,7 +9,7 @@ export default function ItemsNav() {
 
     const toggleTheme = () => {
         setDarkMode((prevMode) => !prevMode);
-        document.documentElement.classList.toggle("dark", !darkMode);
+        document.documentElement.classList.toggle("dark", darkMode);
     };
 
     return (
@@ -33,7 +33,9 @@ export default function ItemsNav() {
                 </DockIcon>
                 {/* Darkmode */}
                 <DockIcon>
-                    <button onClick={toggleTheme}><Icons.darkmode className="size-6" /></button>
+                    <button onClick={toggleTheme}>
+                        <Icons.darkmode className="size-6" />
+                    </button>
                 </DockIcon>
             </Dock>
         </div>
@@ -70,9 +72,7 @@ const Icons = {
     darkmode: (props: IconProps) => (
         <svg viewBox="0 0 24 24" {...props}>
             <g fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                {/* Círculo central representando o sol */}
                 <circle cx="12" cy="12" r="5" />
-                {/* Raios do sol */}
                 <line x1="12" y1="1" x2="12" y2="4" />
                 <line x1="12" y1="20" x2="12" y2="23" />
                 <line x1="4.22" y1="4.22" x2="6.34" y2="6.34" />
