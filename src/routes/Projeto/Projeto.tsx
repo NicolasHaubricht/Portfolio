@@ -72,10 +72,10 @@ const Projeto = () => {
 
     return (
         <section
-            className={`min-h-screen w-full bg-cover bg-center bg-no-repeat filter grayscale`}
+            className={`min-h-screen w-full bg-cover bg-center bg-no-repeat filter grayscale `}
             style={{ backgroundImage: `url(${projeto.imagem})` }}
         >
-            <div className='flex flex-col items-center justify-center w-full min-h-dvh bg-background/75'>
+            <div className='flex flex-col items-center justify-center w-full min-h-screen bg-background/75'>
                 <motion.section
                     initial="hidden"
                     whileInView="visible"
