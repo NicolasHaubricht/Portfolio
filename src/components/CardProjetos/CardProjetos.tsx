@@ -35,4 +35,10 @@ export const projetos = [
         link: "/projetos/organizador-de-arquivos",
         tecnologias: ["Python"],
     },
+    {
+        title: "Locadora de Veiculos",
+        description:"Este projeto permite que o usuário alugue um veiculo por um determinado periodo de tempo e possa devolve-lo após o prazo de aluguel.",
+        link: "/projetos/locadora-de-veiculos",
+        tecnologias: ["Python"],
+    },
 ];

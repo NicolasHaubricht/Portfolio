@@ -42,6 +42,14 @@ const projetos = [
         deploy: 'https://weather-now-drab-eight.vercel.app/',
         repositorio: 'https://github.com/NicolasHaubricht/WeatherNow',
     },
+    {
+        id: 'locadora-de-veiculos',
+        titulo: 'Locadora de Veiculos',
+        descricao: 'Este projeto permite que o usuário alugue um veiculo por um determinado periodo de tempo e possa devolve-lo após o prazo de aluguel. ',
+        imagem: 'https://images.pexels.com/photos/247791/pexels-photo-247791.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        deploy: '',
+        repositorio: 'https://github.com/NicolasHaubricht/Locadora-de-Veiculos',
+    },
 ];
 
 const Projeto = () => {

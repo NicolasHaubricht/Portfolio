@@ -3,7 +3,7 @@ import ButtonDownload from "../ButtonDownload/ButtonDownload";
 const Curriculo = () => {
 
     return (
-        <ButtonDownload fileName="/public/Curriculo.pdf" fileUrl="/public/Curriculo.pdf" text="Download Currículo"/>
+        <ButtonDownload fileName="Curriculo Nicolas Haubricht" fileUrl="/public/cv.docx" text="Download Currículo"/>
     );
 };
 
