@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Dock, DockIcon } from "../../components/ui/dock";
 
@@ -15,21 +15,23 @@ export default function ItemsNav() {
     return (
         <div className="relative">
             <Dock direction="middle">
+                {/* Home */}
+                <DockIcon>
+                    <Link to="/">
+                        <Icons.home className="size-6" />
+                    </Link>
+                </DockIcon>
                 {/* GitHub */}
                 <DockIcon>
-                    <Link to="https://github.com/NicolasHaubricht" target="_blank"> 
+                    <Link to="https://github.com/NicolasHaubricht" target="_blank" rel="noopener noreferrer">
                         <Icons.gitHub className="size-6" />
                     </Link>
                 </DockIcon>
                 {/* Linkedin */}
                 <DockIcon>
-                    <Link to="https://www.linkedin.com/in/nicolas-haubricht" target="_blank"> 
+                    <Link to="https://www.linkedin.com/in/nicolas-haubricht" target="_blank" rel="noopener noreferrer">
                         <Icons.linkedin className="size-6" />
                     </Link>
-                </DockIcon>
-                {/* Email */}
-                <DockIcon>
-                    <Icons.email className="size-6" />
                 </DockIcon>
                 {/* Darkmode */}
                 <DockIcon>
@@ -60,14 +62,15 @@ const Icons = {
         </svg>
     ),
 
-    email: (props: IconProps) => (
+    home: (props: IconProps) => (
         <svg viewBox="0 0 24 24" {...props}>
             <path
                 fill="currentColor"
-                d="M20 4H4C2.89 4 2 4.9 2 6v12c0 1.1.89 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 2-8 5-8-5h16zm-8 7-8-5v10h16V8l-8 5z"
+                d="M10 20v-6h4v6c0 0.55 0.45 1 1 1h4c0.55 0 1-0.45 1-1v-8h2.28c0.85 0 1.28-1.04 0.65-1.65l-9.28-8.35a1.006 1.006 0 0 0-1.36 0L2.07 10.35c-0.63 0.61-0.2 1.65 0.65 1.65H5v8c0 0.55 0.45 1 1 1h4c0.55 0 1-0.45 1-1z"
             ></path>
         </svg>
     ),
+    
 
     darkmode: (props: IconProps) => (
         <svg viewBox="0 0 24 24" {...props}>
