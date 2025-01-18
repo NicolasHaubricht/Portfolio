@@ -50,6 +50,14 @@ const projetos = [
         deploy: '',
         repositorio: 'https://github.com/NicolasHaubricht/Locadora-de-Veiculos',
     },
+    {
+        id: 'analise-dados-obesidade-mundial',
+        titulo: 'Analise Dados Obesidade Mundial',
+        descricao: 'Este projeto tem como objetivo a análise de dados sobre a obesidade no mundo. Com base nesses dados, o projeto fornece informações sobre o aumento da obesidade em diferentes paíseses e regiões do mundo ao longo dos anos.',
+        imagem: 'https://images.pexels.com/photos/247791/pexels-photo-247791.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        deploy: '',
+        repositorio: 'https://github.com/NicolasHaubricht/Analise-Dados-Obesidade-Mundial',
+    },
 ];
 
 const Projeto = () => {

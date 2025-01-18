@@ -8,7 +8,6 @@ const imageUrls = [
     "https://www.svgrepo.com/show/333609/tailwind-css.svg",
     "https://www.svgrepo.com/show/508795/css3-02.svg",
     "https://www.svgrepo.com/show/509966/git.svg",
-    "https://www.svgrepo.com/show/306811/styled-components.svg",
     // Linha 2
     "https://www.svgrepo.com/show/473768/react.svg",
     "https://www.svgrepo.com/show/512400/javascript-155.svg",
@@ -41,7 +40,6 @@ export default function Tecnologias() {
                     {firstRow.map((src, index) => (
                         <ImageCard key={index} src={src} />
                     ))}
-                    {/* hover:opacity-50 */}
                 </Marquee>
                 <Marquee reverse pauseOnHover className="[--duration:25s]">
                     {secondRow.map((src, index) => (

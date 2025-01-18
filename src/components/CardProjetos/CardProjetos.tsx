@@ -30,6 +30,12 @@ export const projetos = [
         tecnologias: ["React", "Tailwind", "TypeScript"],
     },
     {
+        title: "Analise Dados Preço Gasolina no Brasil",
+        description:"Este projeto tem como objetivo a análise de dados sobre o preço da gasolina no Brasil. Com base nesses dados, o projeto fornece informações sobre o aumento e diminuição do preço em diferentes estados e regiões do Brasil ao longo dos anos.",
+        link: "/projetos/analise-dados-gasolina-brasil",
+        tecnologias: ["Python", "Pandas", "Numpy"],
+    },
+    {
         title: "Analise Dados Obesidade Mundial",
         description:"Este projeto tem como objetivo a análise de dados sobre a obesidade no mundo. Com base nesses dados, o projeto fornece informações sobre o aumento da obesidade em diferentes paíseses e regiões do mundo ao longo dos anos.",
         link: "/projetos/analise-dados-obesidade-mundial",
