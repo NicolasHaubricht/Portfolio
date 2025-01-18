@@ -23,7 +23,7 @@ const secondRow = imageUrls.slice(imageUrls.length / 2);
 
 const ImageCard = ({ src }: { src: string }) => {
     return (
-        <div className={cn("relative w-32 h-32 lg:w-40 lg:h-40 cursor-pointer overflow-hidden rounded-xl p-5 lg:p-10 bg-neutral-100 dark:bg-neutral-900")}>
+        <div className={cn("relative w-32 h-32 lg:w-40 lg:h-40 cursor-pointer overflow-hidden rounded-xl p-5 lg:p-10 bg-neutral-100 dark:bg-neutral-700 dark:opacity-70")}>
             <img
                 src={src}
                 alt="Tecnologia"

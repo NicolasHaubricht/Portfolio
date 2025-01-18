@@ -7,7 +7,7 @@ interface LoadingProps {
 
 const Loading: React.FC<LoadingProps> = () => {
     return (
-        <div className="flex items-center justify-center min-h-screen">
+        <div className="flex items-center justify-center min-h-screen overflow-y-hidden">
             <div>
                 <div className="terminal-loader">
                     <div className="terminal-header">

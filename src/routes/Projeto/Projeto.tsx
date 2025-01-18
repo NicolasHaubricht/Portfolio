@@ -16,12 +16,12 @@ const projetos = [
         repositorio: 'https://github.com/NicolasHaubricht/Portfolio',
     },
     {
-        id: 'organizador-de-arquivos',
-        titulo: 'Organização Pessoal',
-        descricao: 'Este projeto permite a organização de arquivos em um diretório, movendo-os para pastas específicas de acordo com suas extensões. Além disso, ele também pode mover arquivos de volta para o diretório raiz a partir de pastas organizadas.',
+        id: 'analise-dados-obesidade-mundial',
+        titulo: 'Analise Dados Obesidade Mundial',
+        descricao: 'Este projeto tem como objetivo a análise de dados sobre a obesidade no mundo. Com base nesses dados, o projeto fornece informações sobre o aumento da obesidade em diferentes paíseses e regiões do mundo ao longo dos anos.',
         imagem: 'https://images.pexels.com/photos/247791/pexels-photo-247791.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         deploy: '',
-        repositorio: 'https://github.com/NicolasHaubricht/Organizador-de-Arquivos',
+        repositorio: 'https://github.com/NicolasHaubricht/Analise-Dados-Obesidade-Mundial',
     },
     {
         id: 'ecobreathe',

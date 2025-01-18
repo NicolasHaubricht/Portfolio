@@ -42,14 +42,8 @@ const SobreMim = () => {
                             <AccordionTrigger>Tecnologias que estou estudando:</AccordionTrigger>
                             <AccordionContent className="flex gap-10">
                                 <div>
-                                    <ul>Next</ul>
                                     <ul>Flask</ul>
-                                    <ul>Node</ul>
-                                </div>
-                                <div>
                                     <ul>SQL</ul>
-                                    <ul>TypeScript</ul>
-                                    <ul>AWS</ul>
                                 </div>
                             </AccordionContent>
                         </AccordionItem>

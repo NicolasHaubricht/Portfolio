@@ -30,10 +30,10 @@ export const projetos = [
         tecnologias: ["React", "Tailwind", "TypeScript"],
     },
     {
-        title: "Organizador de Arquivos",
-        description:"Este projeto permite a organização de arquivos em um diretório, movendo-os para pastas específicas de acordo com suas extensões. Além disso, ele também pode mover arquivos de volta para o diretório raiz a partir de pastas organizadas.",
-        link: "/projetos/organizador-de-arquivos",
-        tecnologias: ["Python"],
+        title: "Analise Dados Obesidade Mundial",
+        description:"Este projeto tem como objetivo a análise de dados sobre a obesidade no mundo. Com base nesses dados, o projeto fornece informações sobre o aumento da obesidade em diferentes paíseses e regiões do mundo ao longo dos anos.",
+        link: "/projetos/analise-dados-obesidade-mundial",
+        tecnologias: ["Python", "Pandas", "Numpy", "Matplotlib"],
     },
     {
         title: "Locadora de Veiculos",
