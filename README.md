@@ -39,9 +39,9 @@ npm run dev
 
 
 ### 🛠️ Construído com
-Mencione as ferramentas que você usou para criar seu projeto
 <li><a href='https://react.dev/'>React</a> - Biblioteca para criação de interfaces</li>
 <li><a href='https://vite.dev/'>Vite</a> - Ferramenta de build para desenvolvimento rápido</li>
+<li><a href='https://www.typescriptlang.org/'>TypeScript</a> - Linguagem de programação</li>
 <li><a href='https://tailwindcss.com/'>Tailwind CSS</a> - Framework de estilização</li>
 <li><a href='https://magicui.design/'>Magic UI</a> - Biblioteca de componentes</li>
 <li><a href='https://ui.aceternity.com/'>Aceternity UI</a> - Biblioteca de componentes</li>
@@ -49,7 +49,7 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 ## ✒️ Autores
 
-<li>Nicolas Haubricht - Desenvolvimento e documentação - <a href='https://github.com/NicolasHaubricht/'>nicolas-haubricht</a></li> 
+<li>Desenvolvimento e documentação - <a href='https://github.com/NicolasHaubricht/'>Nicolas Haubricht</a></li> 
 
 ##
 Feito com dedicação por Nicolas Haubricht
