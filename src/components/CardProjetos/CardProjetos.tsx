@@ -23,13 +23,6 @@ export const projetos = [
         tecnologias: ["React", "Tailwind", "C++", "Python", "AWS"],
     },
     {
-        title: "Portfolio",
-        description:
-            "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-        link: "/projetos/portfolio",
-        tecnologias: ["React", "Tailwind", "TypeScript"],
-    },
-    {
         title: "Analise Dados Preço Gasolina no Brasil",
         description:"Este projeto tem como objetivo a análise de dados sobre o preço da gasolina no Brasil. Com base nesses dados, o projeto fornece informações sobre o aumento e diminuição do preço em diferentes estados e regiões do Brasil ao longo dos anos.",
         link: "/projetos/analise-dados-gasolina-brasil",
@@ -40,5 +33,17 @@ export const projetos = [
         description:"Este projeto tem como objetivo a análise de dados sobre a obesidade no mundo. Com base nesses dados, o projeto fornece informações sobre o aumento da obesidade em diferentes paíseses e regiões do mundo ao longo dos anos.",
         link: "/projetos/analise-dados-obesidade-mundial",
         tecnologias: ["Python", "Pandas", "Numpy", "Matplotlib"],
+    },
+    {
+        title: "Analise Dados PIB Per Capita",
+        description:"Este projeto tem como objetivo a análise de dados sobre as variações do PIB per capita em diversos países ao longo dos anos. Com base nesses dados, o projeto fornece informações sobre as regiões com maiores crescimentos de PIB per capita no século passado entre outros dados.",
+        link: "/projetos/analise-dados-pib-per-capita",
+        tecnologias: ["Python", "Pandas", "Numpy", "Matplotlib"],
+    },
+    {
+        title: "Analise Dados Mapa Cidades Brasileiras",
+        description:"Este projeto visa visualizar dados geográficos das cidades brasileiras. Utilizando a biblioteca Folium, ele apresenta informações como estado, região e código IBGE em um mapa interativo com clusters, facilitando a navegação e a exploração das localizações.",
+        link:'/projetos/analise-dados-mapa-cidades-brasileiras',
+        tecnologias: ["Python", "Pandas", "Numpy", "Folium"],
     },
 ];

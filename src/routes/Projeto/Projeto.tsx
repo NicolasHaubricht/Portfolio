@@ -7,21 +7,13 @@ import ButtonType from "@/components/Buttons/ButtonType/ButtonType"
 
 const projetos = [
     {
-        id: 'portfolio',
-        titulo: 'Meu Portfólio',
-        sub_titulo: 'Portfólio Pessoal',
-        descricao: 'Um portfólio pessoal desenvolvido com as tecnologias React, TypeScript e Tailwind CSS. O principal objetivo é exibir para empresas e recrutadores meus projetos e habilidades.',
-        imagem: 'https://images.pexels.com/photos/247791/pexels-photo-247791.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        deploy: '',
-        repositorio: 'https://github.com/NicolasHaubricht/Portfolio',
-    },
-    {
-        id: 'analise-dados-obesidade-mundial',
-        titulo: 'Analise Dados Obesidade Mundial',
-        descricao: 'Este projeto tem como objetivo a análise de dados sobre a obesidade no mundo. Com base nesses dados, o projeto fornece informações sobre o aumento da obesidade em diferentes paíseses e regiões do mundo ao longo dos anos.',
-        imagem: 'https://images.pexels.com/photos/247791/pexels-photo-247791.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        deploy: '',
-        repositorio: 'https://github.com/NicolasHaubricht/Analise-Dados-Obesidade-Mundial',
+        id: 'weather-now',
+        titulo: 'WeatherNow',
+        sub_titulo: 'Condições Climáticas',
+        descricao: 'Este projeto permite que o usuário pesquise as condições climáticas de qualquer cidade e obtenha informações detalhadas de forma rápida e eficiente. Além de funcional, ele é totalmente responsivo, garantindo uma experiência agradável em qualquer dispositivo. Além de funcional, ele é totalmente responsivo, garantindo uma experiência agradável em qualquer dispositivo.',
+        imagem: 'https://images.pexels.com/photos/1446076/pexels-photo-1446076.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        deploy: 'https://weather-now-drab-eight.vercel.app/',
+        repositorio: 'https://github.com/NicolasHaubricht/WeatherNow',
     },
     {
         id: 'ecobreathe',
@@ -32,23 +24,13 @@ const projetos = [
         deploy: 'https://eco-breathe-web-site.vercel.app/',
         repositorio: 'https://github.com/NicolasHaubricht/EcoBreathe-Web-Site',
     },
-
     {
-        id: 'weather-now',
-        titulo: 'WeatherNow',
-        sub_titulo: 'Condições Climáticas',
-        descricao: 'Este projeto permite que o usuário pesquise as condições climáticas de qualquer cidade e obtenha informações detalhadas de forma rápida e eficiente. Além de funcional, ele é totalmente responsivo, garantindo uma experiência agradável em qualquer dispositivo. Além de funcional, ele é totalmente responsivo, garantindo uma experiência agradável em qualquer dispositivo.',
-        imagem: 'https://images.pexels.com/photos/1446076/pexels-photo-1446076.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        deploy: 'https://weather-now-drab-eight.vercel.app/',
-        repositorio: 'https://github.com/NicolasHaubricht/WeatherNow',
-    },
-    {
-        id: 'locadora-de-veiculos',
-        titulo: 'Locadora de Veiculos',
-        descricao: 'Este projeto permite que o usuário alugue um veiculo por um determinado periodo de tempo e possa devolve-lo após o prazo de aluguel. ',
+        id: 'analise-dados-gasolina-brasil',
+        titulo: 'Analise Dados Preço Gasolina no Brasil',
+        descricao: 'Este projeto tem como objetivo a análise de dados sobre o preço da gasolina no Brasil. Com base nesses dados, o projeto fornece informações sobre o aumento e diminuição do preço em diferentes estados e regiões do Brasil ao longo dos anos.',
         imagem: 'https://images.pexels.com/photos/247791/pexels-photo-247791.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         deploy: '',
-        repositorio: 'https://github.com/NicolasHaubricht/Locadora-de-Veiculos',
+        repositorio: 'https://github.com/NicolasHaubricht/Analise-Dados-Gasolina-Brasil',
     },
     {
         id: 'analise-dados-obesidade-mundial',
@@ -57,6 +39,22 @@ const projetos = [
         imagem: 'https://images.pexels.com/photos/247791/pexels-photo-247791.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         deploy: '',
         repositorio: 'https://github.com/NicolasHaubricht/Analise-Dados-Obesidade-Mundial',
+    },
+    {
+        id: 'analise-dados-pib-per-capita',
+        titulo: 'Analise Dados PIB Per Capita',
+        descricao: 'Este projeto tem como objetivo a análise de dados sobre as variações do PIB per capita em diversos países ao longo dos anos. Com base nesses dados, o projeto fornece informações sobre as regiões com maiores crescimentos de PIB per capita no século passado entre outros dados.',
+        imagem: 'https://images.pexels.com/photos/247791/pexels-photo-247791.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        deploy: '',
+        repositorio: 'https://github.com/NicolasHaubricht/Analise-Dados-PIB-Per-Capita',
+    },
+    {
+        id: 'analise-dados-mapa-cidades-brasileiras',
+        titulo: 'Analise Dados Mapa Cidades Brasileiras',
+        descricao: 'Este projeto tem como objetivo a visualização de dados geográficos das cidades brasileiras. Com base nesses dados, o projeto fornece informações detalhadas sobre cada cidade, incluindo seu estado, região, e código IBGE. Por meio de um mapa interativo utilizando a biblioteca Folium, é possível explorar e visualizar as localizações das cidades, agrupadas de forma eficiente com a funcionalidade de clusters, permitindo uma navegação mais clara e intuitiva. Este projeto pode ser utilizado para análises geográficas, estudos regionais e como ferramenta de apresentação de dados de maneira interativa e visual.',
+        imagem: 'https://images.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        deploy: 'https://nicolashaubricht.github.io/Mapa-Cidades-Brasileiras/',
+        repositorio: 'https://github.com/NicolasHaubricht/Mapa-Cidades-Brasileiras',
     },
 ];
 
