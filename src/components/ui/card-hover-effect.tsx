@@ -71,7 +71,7 @@ export const Card = ({
     return (
         <div
             className={cn(
-                "rounded-2xl h-full w-full p-4 overflow-hidden bg-neutral-200 dark:bg-neutral-900 border border-black dark:border-white/[0.2] group-hover:border-slate-100/[0.6] relative z-20 transition-all duration-300 ease-in-out",
+                "rounded-2xl h-full w-full p-4 overflow-hidden bg-neutral-200 dark:bg-neutral-900 border border-neutral-300 dark:border-white/[0.2] group-hover:border-slate-100/[0.6] relative z-20 transition-all duration-300 ease-in-out",
                 className
             )}
         >
@@ -124,7 +124,7 @@ export const CardTecnologias = ({
             {tecnologias.map((tecnologia, index) => (
                 <li
                     key={index}
-                    className="text-sm text-white dark:text-white bg-neutral-400 dark:bg-neutral-800 rounded px-2 py-1"
+                    className="text-sm text-white dark:text-white bg-neutral-500 dark:bg-neutral-800 rounded px-2 py-1"
                 >
                     {tecnologia}
                 </li>
