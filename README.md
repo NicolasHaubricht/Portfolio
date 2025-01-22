@@ -2,6 +2,9 @@
 
 Este repositório apresenta o portfólio de Nicolas Haubricht, destacando projetos desenvolvidos em Engenharia de Software com foco em soluções inovadoras e responsáveis. Aqui você encontrará informações sobre cada projeto, as tecnologias utilizadas e instruções para exploração e contribuição.
 
+## 🎉 Deploy
+Link: <a href='https://portfolio-nicolas-haubricht-silk.vercel.app/'>Deploy</a>
+
 ## 🚀 Começando
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
