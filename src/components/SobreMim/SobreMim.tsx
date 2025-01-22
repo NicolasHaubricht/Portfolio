@@ -28,22 +28,13 @@ const SobreMim = () => {
                                     <ul>HTML</ul>
                                     <ul>CSS</ul>
                                     <ul>JavaScript</ul>
-                                    <ul>React Vite</ul>
+                                    <ul>React</ul>
                                 </div>
                                 <div>
+                                    <ul>Python</ul>
                                     <ul>Git</ul>
                                     <ul>GitHub</ul>
-                                    <ul>Python</ul>
                                     <ul>C++</ul>
-                                </div>
-                            </AccordionContent>
-                        </AccordionItem>
-                        <AccordionItem value="item-4">
-                            <AccordionTrigger>Tecnologias que estou estudando:</AccordionTrigger>
-                            <AccordionContent className="flex gap-10">
-                                <div>
-                                    <ul>Flask</ul>
-                                    <ul>SQL</ul>
                                 </div>
                             </AccordionContent>
                         </AccordionItem>
