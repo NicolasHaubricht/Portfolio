@@ -55,4 +55,4 @@ npm run dev
 <li>Desenvolvimento e documentação - <a href='https://github.com/NicolasHaubricht/'>Nicolas Haubricht</a></li> 
 
 ##
-Feito com dedicação por Nicolas Haubricht
+Feito com dedicação por <a href='https://github.com/NicolasHaubricht/'>Nicolas Haubricht</a>
