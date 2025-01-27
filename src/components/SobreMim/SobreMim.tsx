@@ -29,11 +29,13 @@ const SobreMim = () => {
                                     <ul>CSS</ul>
                                     <ul>JavaScript</ul>
                                     <ul>React</ul>
+                                    <ul>TypeScript</ul>
+                                    <ul>Git e GitHub</ul>
                                 </div>
                                 <div>
                                     <ul>Python</ul>
-                                    <ul>Git</ul>
-                                    <ul>GitHub</ul>
+                                    <ul>SQL</ul>
+                                    <ul>AWS</ul>
                                     <ul>C++</ul>
                                 </div>
                             </AccordionContent>
