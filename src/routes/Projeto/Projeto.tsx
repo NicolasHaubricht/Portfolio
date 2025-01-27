@@ -56,6 +56,14 @@ const projetos = [
         deploy: 'https://nicolashaubricht.github.io/Mapa-Cidades-Brasileiras/',
         repositorio: 'https://github.com/NicolasHaubricht/Mapa-Cidades-Brasileiras',
     },
+    {
+        id: 'sports-car-dashboard',
+        titulo: 'Sports Car Dashboard',
+        descricao: 'Este projeto é um dashboard interativo desenvolvido com o framework Dash, destinado à análise de dados sobre carros esportivos. Ele permite visualizar informações como potência, preço, aceleração e distribuição de veículos por marca e modelo.',
+        imagem: 'https://images.pexels.com/photos/3422964/pexels-photo-3422964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        deploy: '',
+        repositorio: 'https://github.com/NicolasHaubricht/Sports-Car-Dashboard',
+    },
 ];
 
 const Projeto = () => {

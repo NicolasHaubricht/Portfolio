@@ -32,18 +32,24 @@ export const projetos = [
         title: "Analise Dados Obesidade Mundial",
         description:"Este projeto tem como objetivo a análise de dados sobre a obesidade no mundo. Com base nesses dados, o projeto fornece informações sobre o aumento da obesidade em diferentes paíseses e regiões do mundo ao longo dos anos.",
         link: "/projetos/analise-dados-obesidade-mundial",
-        tecnologias: ["Python", "Pandas", "Numpy", "Matplotlib"],
+        tecnologias: ["Python", "Pandas", "Numpy", "Matplotlib", "Plotly"],
     },
     {
         title: "Analise Dados PIB Per Capita",
         description:"Este projeto tem como objetivo a análise de dados sobre as variações do PIB per capita em diversos países ao longo dos anos. Com base nesses dados, o projeto fornece informações sobre as regiões com maiores crescimentos de PIB per capita no século passado entre outros dados.",
         link: "/projetos/analise-dados-pib-per-capita",
-        tecnologias: ["Python", "Pandas", "Numpy", "Matplotlib"],
+        tecnologias: ["Python", "Pandas", "Numpy", "Matplotlib", "Plotly"],
     },
     {
         title: "Analise Dados Mapa Cidades Brasileiras",
         description:"Este projeto visa visualizar dados geográficos das cidades brasileiras. Utilizando a biblioteca Folium, ele apresenta informações como estado, região e código IBGE em um mapa interativo com clusters, facilitando a navegação e a exploração das localizações.",
         link:'/projetos/analise-dados-mapa-cidades-brasileiras',
         tecnologias: ["Python", "Pandas", "Numpy", "Folium"],
+    },
+    {
+        title: "Sports Car Dashboard",
+        description:"Este projeto é um dashboard interativo desenvolvido com o framework Dash, destinado à análise de dados sobre carros esportivos. Ele permite visualizar informações como potência, preço, aceleração e distribuição de veículos por marca e modelo.",
+        link:'/projetos/sports-car-dashboard',
+        tecnologias: ["Python", "Dash", "Pandas", "Plotly"],
     },
 ];
