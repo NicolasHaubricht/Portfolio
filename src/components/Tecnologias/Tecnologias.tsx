@@ -12,9 +12,7 @@ const imageUrls = [
     "https://www.svgrepo.com/show/473768/react.svg",
     "https://www.svgrepo.com/show/512400/javascript-155.svg",
     "https://www.svgrepo.com/show/512738/python-127.svg",
-    "https://www.svgrepo.com/show/448299/aws.svg",
-    "https://www.svgrepo.com/show/521339/c-plusplus-16.svg",
-    "https://www.svgrepo.com/show/369620/typescript.svg"
+    "https://www.svgrepo.com/show/508915/flask.svg",
 ];
 
 const firstRow = imageUrls.slice(0, imageUrls.length / 2);
