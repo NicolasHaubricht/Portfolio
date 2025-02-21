@@ -52,4 +52,10 @@ export const projetos = [
         link:'/projetos/sports-car-dashboard',
         tecnologias: ["Python", "Dash", "Pandas", "Plotly"],
     },
+    {
+        title: "Gerenciamento de Reservas de Restaurantes",
+        description:"Este projeto é um sistema de gerenciamento de reservas para restaurantes, desenvolvido com Flask e SQLAlchemy. Ele permite que os usuários façam reservas, editem, excluam e visualizem seus agendamentos em uma interface intuitiva.",
+        link:'/projetos/gerenciamento-de-reservas',
+        tecnologias: ["Python", "Flask", "SQL", "SQLAlchemy", "SQLite", "Werkzeug", "HTML", "CSS"],
+    },
 ];
