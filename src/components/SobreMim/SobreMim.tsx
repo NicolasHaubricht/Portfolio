@@ -37,6 +37,7 @@ const SobreMim = () => {
                                     <ul>Python</ul>
                                     <ul>Flask</ul>
                                     <ul>SQL</ul>
+                                    <ul>C++</ul>
                                 </div>
                             </AccordionContent>
                         </AccordionItem>
