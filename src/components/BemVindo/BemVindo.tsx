@@ -17,7 +17,7 @@ const BemVindo = () => {
                 {/* Cargo */}
                 <TypingAnimation
                     className="text-2xl font-bold text-black dark:text-white"
-                    text="Desenvolvedor FullStack"
+                    text="Engenheiro de Software"
                 />
             </div>
             {/* Background */}
